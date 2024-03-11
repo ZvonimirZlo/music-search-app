@@ -5,7 +5,7 @@ const updateTerm = () => {
  
     // check if song or artist exist
     if (!term || term === '') {
-        alert('Enter a valid term!');
+        alert('No result or invalid input!');
     } else {
         const url = `https://itunes.apple.com/search?term=${term}`;
         const songContainer = document.getElementById('songs');
