@@ -1,7 +1,7 @@
 const path = require("path");
 module.exports = {
     mode: "development",
-    entry: "./code/main.js",
+    entry: "main.js",
     devServer: {
       static: {
         directory: path.join(__dirname, "/"),
